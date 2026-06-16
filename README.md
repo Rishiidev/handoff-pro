@@ -1,6 +1,13 @@
 # 🤝 Handoff Pro
 
-**Never start from zero again.** Handoff Pro is a [Claude Skill](https://docs.claude.com/en/docs/claude-code/skills) that eliminates the "starting-from-zero" problem when your context window fills up or a session ends. It compresses an entire conversation into a structured handoff document — then reloads it later so the next session resumes as if it never stopped.
+[![GitHub stars](https://img.shields.io/github/stars/Rishiidev/handoff-pro?style=flat-square&color=fbbf24)](https://github.com/Rishiidev/handoff-pro/stargazers)
+[![License: MIT](https://img.shields.io/github/license/Rishiidev/handoff-pro?style=flat-square&color=38bdf8)](LICENSE)
+[![Last commit](https://img.shields.io/github/last-commit/Rishiidev/handoff-pro?style=flat-square&color=a78bfa)](https://github.com/Rishiidev/handoff-pro/commits/main)
+[![Claude Skill](https://img.shields.io/badge/Claude-Skill-d97757?style=flat-square)](https://docs.claude.com/en/docs/claude-code/skills)
+
+**Every long Claude session ends the same way: context fills up, you re-explain everything next time.** Handoff Pro stops that. It compresses an entire conversation into a structured handoff document — then reloads it later so the next session resumes as if it never stopped.
+
+![Handoff Pro flow: save once, load anytime](assets/flow-diagram.svg)
 
 Works across **Claude.ai**, **Cowork**, and **Claude Code**. In Cowork and Claude Code, loading is fully automatic — no copy-pasting required.
 

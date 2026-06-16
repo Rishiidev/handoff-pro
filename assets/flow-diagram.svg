@@ -1,0 +1,64 @@
+<svg viewBox="0 0 1200 280" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="280" rx="16" fill="url(#bg)"/>
+
+  <!-- Step 1: Long session -->
+  <g>
+    <rect x="30" y="90" width="190" height="100" rx="12" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+    <text x="125" y="128" text-anchor="middle" font-size="28">💬</text>
+    <text x="125" y="156" text-anchor="middle" fill="#e2e8f0" font-size="14" font-weight="600">Long session</text>
+    <text x="125" y="174" text-anchor="middle" fill="#94a3b8" font-size="11">context filling up</text>
+  </g>
+
+  <line x1="220" y1="140" x2="262" y2="140" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Step 2: save handoff -->
+  <g>
+    <rect x="270" y="90" width="190" height="100" rx="12" fill="#1e293b" stroke="#fb923c" stroke-width="1.5"/>
+    <text x="365" y="124" text-anchor="middle" font-size="22">💾</text>
+    <text x="365" y="150" text-anchor="middle" fill="#fb923c" font-size="13" font-family="monospace" font-weight="700">"save handoff"</text>
+    <text x="365" y="170" text-anchor="middle" fill="#94a3b8" font-size="11">compresses 12 elements</text>
+  </g>
+
+  <line x1="460" y1="140" x2="502" y2="140" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Step 3: handoff doc -->
+  <g>
+    <rect x="510" y="80" width="180" height="120" rx="12" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5"/>
+    <text x="600" y="118" text-anchor="middle" font-size="26">📄</text>
+    <text x="600" y="146" text-anchor="middle" fill="#38bdf8" font-size="13" font-weight="700">Handoff doc</text>
+    <text x="600" y="163" text-anchor="middle" fill="#94a3b8" font-size="10" font-family="monospace">2026-06-16-...md</text>
+    <text x="600" y="180" text-anchor="middle" fill="#64748b" font-size="10">goal · decisions · cursor</text>
+  </g>
+
+  <line x1="690" y1="140" x2="732" y2="140" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Step 4: load handoff -->
+  <g>
+    <rect x="740" y="90" width="190" height="100" rx="12" fill="#1e293b" stroke="#a78bfa" stroke-width="1.5"/>
+    <text x="835" y="124" text-anchor="middle" font-size="22">🔄</text>
+    <text x="835" y="150" text-anchor="middle" fill="#a78bfa" font-size="13" font-family="monospace" font-weight="700">"load handoff"</text>
+    <text x="835" y="170" text-anchor="middle" fill="#94a3b8" font-size="11">next session, auto-found</text>
+  </g>
+
+  <line x1="930" y1="140" x2="972" y2="140" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Step 5: resume -->
+  <g>
+    <rect x="980" y="90" width="190" height="100" rx="12" fill="#1e293b" stroke="#4ade80" stroke-width="1.5"/>
+    <text x="1075" y="124" text-anchor="middle" font-size="22">✅</text>
+    <text x="1075" y="150" text-anchor="middle" fill="#4ade80" font-size="13" font-weight="700">Resume exactly</text>
+    <text x="1075" y="168" text-anchor="middle" fill="#94a3b8" font-size="11">where you left off</text>
+  </g>
+
+  <text x="600" y="40" text-anchor="middle" fill="#f1f5f9" font-size="18" font-weight="700">SAVE once → LOAD anytime → never re-explain context again</text>
+</svg>
